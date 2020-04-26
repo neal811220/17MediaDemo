@@ -1,23 +1,22 @@
 //
-//  ViewController.m
+//  SecondViewController.m
 //  17MediaDemo
 //
 //  Created by Neal on 2020/4/26.
 //  Copyright © 2020 neal812220. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "SecondViewController.h"
 
-@interface ViewController ()
+@interface SecondViewController ()
 
 @end
 
-@implementation ViewController
+@implementation SecondViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
 }
-
 
 @end
