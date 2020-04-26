@@ -8,27 +8,31 @@
 
 /* Begin PBXBuildFile section */
 		18F94399245581790060453C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F94398245581790060453C /* AppDelegate.m */; };
-		18F9439C245581790060453C /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9439B245581790060453C /* SceneDelegate.m */; };
-		18F9439F245581790060453C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9439E245581790060453C /* ViewController.m */; };
-		18F943A2245581790060453C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F943A0245581790060453C /* Main.storyboard */; };
+		18F9439F245581790060453C /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9439E245581790060453C /* HomeViewController.m */; };
 		18F943A42455817A0060453C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F943A32455817A0060453C /* Assets.xcassets */; };
 		18F943A72455817A0060453C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18F943A52455817A0060453C /* LaunchScreen.storyboard */; };
 		18F943AA2455817A0060453C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F943A92455817A0060453C /* main.m */; };
+		18F943B224558AA60060453C /* NATabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F943B124558AA60060453C /* NATabBarController.m */; };
+		18F943BB245593470060453C /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F943BA245593470060453C /* SecondViewController.m */; };
+		18F943BF24559C000060453C /* MenuCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F943BE24559C000060453C /* MenuCollectionViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		18F94394245581790060453C /* 17MediaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 17MediaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F94397245581790060453C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18F94398245581790060453C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		18F9439A245581790060453C /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		18F9439B245581790060453C /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		18F9439D245581790060453C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		18F9439E245581790060453C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		18F943A1245581790060453C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		18F9439D245581790060453C /* HomeViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		18F9439E245581790060453C /* HomeViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		18F943A32455817A0060453C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18F943A62455817A0060453C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18F943A82455817A0060453C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18F943A92455817A0060453C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18F943B024558AA60060453C /* NATabBarController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NATabBarController.h; sourceTree = "<group>"; };
+		18F943B124558AA60060453C /* NATabBarController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NATabBarController.m; sourceTree = "<group>"; };
+		18F943B9245593470060453C /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		18F943BA245593470060453C /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		18F943BD24559C000060453C /* MenuCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MenuCollectionViewCell.h; sourceTree = "<group>"; };
+		18F943BE24559C000060453C /* MenuCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MenuCollectionViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,17 +67,84 @@
 			children = (
 				18F94397245581790060453C /* AppDelegate.h */,
 				18F94398245581790060453C /* AppDelegate.m */,
-				18F9439A245581790060453C /* SceneDelegate.h */,
-				18F9439B245581790060453C /* SceneDelegate.m */,
-				18F9439D245581790060453C /* ViewController.h */,
-				18F9439E245581790060453C /* ViewController.m */,
-				18F943A0245581790060453C /* Main.storyboard */,
-				18F943A32455817A0060453C /* Assets.xcassets */,
-				18F943A52455817A0060453C /* LaunchScreen.storyboard */,
+				18F943B824558B0A0060453C /* Resource */,
+				18F943B424558ABA0060453C /* Model */,
+				18F943B524558AC40060453C /* View */,
+				18F943B624558AD30060453C /* Controller */,
 				18F943A82455817A0060453C /* Info.plist */,
 				18F943A92455817A0060453C /* main.m */,
 			);
 			path = 17MediaDemo;
+			sourceTree = "<group>";
+		};
+		18F943B324558AAA0060453C /* NATabBar */ = {
+			isa = PBXGroup;
+			children = (
+				18F943B024558AA60060453C /* NATabBarController.h */,
+				18F943B124558AA60060453C /* NATabBarController.m */,
+			);
+			path = NATabBar;
+			sourceTree = "<group>";
+		};
+		18F943B424558ABA0060453C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		18F943B524558AC40060453C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				18F943C024559C0A0060453C /* HomeMenu */,
+				18F943A52455817A0060453C /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		18F943B624558AD30060453C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				18F943B724558AFA0060453C /* Home */,
+				18F943BC2455934D0060453C /* Second */,
+				18F943B324558AAA0060453C /* NATabBar */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		18F943B724558AFA0060453C /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				18F9439D245581790060453C /* HomeViewController.h */,
+				18F9439E245581790060453C /* HomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		18F943B824558B0A0060453C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				18F943A32455817A0060453C /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		18F943BC2455934D0060453C /* Second */ = {
+			isa = PBXGroup;
+			children = (
+				18F943B9245593470060453C /* SecondViewController.h */,
+				18F943BA245593470060453C /* SecondViewController.m */,
+			);
+			path = Second;
+			sourceTree = "<group>";
+		};
+		18F943C024559C0A0060453C /* HomeMenu */ = {
+			isa = PBXGroup;
+			children = (
+				18F943BD24559C000060453C /* MenuCollectionViewCell.h */,
+				18F943BE24559C000060453C /* MenuCollectionViewCell.m */,
+			);
+			path = HomeMenu;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,7 +206,6 @@
 			files = (
 				18F943A72455817A0060453C /* LaunchScreen.storyboard in Resources */,
 				18F943A42455817A0060453C /* Assets.xcassets in Resources */,
-				18F943A2245581790060453C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,24 +216,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18F9439F245581790060453C /* ViewController.m in Sources */,
+				18F943BB245593470060453C /* SecondViewController.m in Sources */,
+				18F943BF24559C000060453C /* MenuCollectionViewCell.m in Sources */,
+				18F9439F245581790060453C /* HomeViewController.m in Sources */,
 				18F94399245581790060453C /* AppDelegate.m in Sources */,
+				18F943B224558AA60060453C /* NATabBarController.m in Sources */,
 				18F943AA2455817A0060453C /* main.m in Sources */,
-				18F9439C245581790060453C /* SceneDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		18F943A0245581790060453C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				18F943A1245581790060453C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		18F943A52455817A0060453C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (

@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  SecondViewController.h
 //  17MediaDemo
 //
 //  Created by Neal on 2020/4/26.
@@ -8,9 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+NS_ASSUME_NONNULL_BEGIN
 
-@property (nonatomic, strong) UIWindow *window;
+@interface SecondViewController : UIViewController
 
 @end
 
+NS_ASSUME_NONNULL_END

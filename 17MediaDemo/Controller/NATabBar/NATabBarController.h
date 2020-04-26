@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  NATabBarController.h
 //  17MediaDemo
 //
 //  Created by Neal on 2020/4/26.
@@ -8,8 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+NS_ASSUME_NONNULL_BEGIN
 
+@interface NATabBarController : UITabBarController
 
 @end
 
+NS_ASSUME_NONNULL_END
