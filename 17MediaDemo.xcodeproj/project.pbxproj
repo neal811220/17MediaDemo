@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18E286052458361F00313FEA /* libreadline.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 18E286042458361E00313FEA /* libreadline.tbd */; };
+		18EA771A245C037E009203CC /* ContentCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18EA7719245C037E009203CC /* ContentCollectionViewCell.m */; };
 		18F94399245581790060453C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F94398245581790060453C /* AppDelegate.m */; };
 		18F9439F245581790060453C /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F9439E245581790060453C /* HomeViewController.m */; };
 		18F943A42455817A0060453C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18F943A32455817A0060453C /* Assets.xcassets */; };
@@ -18,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18E286042458361E00313FEA /* libreadline.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libreadline.tbd; path = usr/lib/libreadline.tbd; sourceTree = SDKROOT; };
+		18EA7718245C037E009203CC /* ContentCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContentCollectionViewCell.h; sourceTree = "<group>"; };
+		18EA7719245C037E009203CC /* ContentCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ContentCollectionViewCell.m; sourceTree = "<group>"; };
 		18F94394245581790060453C /* 17MediaDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 17MediaDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18F94397245581790060453C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		18F94398245581790060453C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -40,17 +45,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18E286052458361F00313FEA /* libreadline.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18E286032458361E00313FEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18E286042458361E00313FEA /* libreadline.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18EA771B245C0384009203CC /* Content */ = {
+			isa = PBXGroup;
+			children = (
+				18EA7718245C037E009203CC /* ContentCollectionViewCell.h */,
+				18EA7719245C037E009203CC /* ContentCollectionViewCell.m */,
+			);
+			path = Content;
+			sourceTree = "<group>";
+		};
 		18F9438B245581790060453C = {
 			isa = PBXGroup;
 			children = (
 				18F94396245581790060453C /* 17MediaDemo */,
 				18F94395245581790060453C /* Products */,
+				18E286032458361E00313FEA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -96,6 +120,7 @@
 		18F943B524558AC40060453C /* View */ = {
 			isa = PBXGroup;
 			children = (
+				18EA771B245C0384009203CC /* Content */,
 				18F943C024559C0A0060453C /* HomeMenu */,
 				18F943A52455817A0060453C /* LaunchScreen.storyboard */,
 			);
@@ -221,6 +246,7 @@
 				18F9439F245581790060453C /* HomeViewController.m in Sources */,
 				18F94399245581790060453C /* AppDelegate.m in Sources */,
 				18F943B224558AA60060453C /* NATabBarController.m in Sources */,
+				18EA771A245C037E009203CC /* ContentCollectionViewCell.m in Sources */,
 				18F943AA2455817A0060453C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
